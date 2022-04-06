@@ -72,11 +72,13 @@ files:
 
     }
 
-    jest.setTimeout(30000);
-    test("Test stage", async () => {
-            await new Test().runTests()
+    it('Test stage', async function () {
+        try {
+            this.timeout(30000)
+        } catch (ignored) {
         }
-    );
+        await new Test().runTests()
+    }, 30000)
   learner_created: false
 - name: src/index.html
   visible: true

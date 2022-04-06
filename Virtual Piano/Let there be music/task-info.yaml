@@ -337,6 +337,15 @@ files:
     \    /*Remove the distance between the keys.\n    For example, you can do it with\
     \ the margin-left property.*/\n    margin-left: -1px;\n}"
   learner_created: true
+- name: audio/S.mp3
+  visible: true
+  learner_created: true
+- name: audio/G.mp3
+  visible: true
+  learner_created: true
+- name: audio/D.mp3
+  visible: true
+  learner_created: true
 - name: src/script.js
   visible: true
   text: |-
@@ -361,6 +370,18 @@ files:
             console.log("Please, press something from 'ASDFGHJ'!");
         }
     });
+  learner_created: true
+- name: audio/F.mp3
+  visible: true
+  learner_created: true
+- name: audio/A.mp3
+  visible: true
+  learner_created: true
+- name: audio/H.mp3
+  visible: true
+  learner_created: true
+- name: audio/J.mp3
+  visible: true
   learner_created: true
 - name: src/eventHandler.js
   visible: true
@@ -395,27 +416,6 @@ files:
             return event;
         }
     });
-  learner_created: true
-- name: audio/D.mp3
-  visible: true
-  learner_created: true
-- name: audio/J.mp3
-  visible: true
-  learner_created: true
-- name: audio/G.mp3
-  visible: true
-  learner_created: true
-- name: audio/H.mp3
-  visible: true
-  learner_created: true
-- name: audio/F.mp3
-  visible: true
-  learner_created: true
-- name: audio/S.mp3
-  visible: true
-  learner_created: true
-- name: audio/A.mp3
-  visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/9025#comment
 status: Solved

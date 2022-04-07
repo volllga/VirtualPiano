@@ -97,6 +97,9 @@ files:
 - name: src/style.css
   visible: true
   learner_created: true
+- name: src/media/F.mp3
+  visible: true
+  learner_created: true
 - name: src/media/J.mp3
   visible: true
   learner_created: true
@@ -110,9 +113,6 @@ files:
   visible: true
   learner_created: true
 - name: src/eventsHandler.js
-  visible: true
-  learner_created: true
-- name: src/media/F.mp3
   visible: true
   learner_created: true
 - name: src/media/G.mp3

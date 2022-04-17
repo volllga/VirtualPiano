@@ -508,6 +508,21 @@ files:
         await new Test().runTests()
     }, 30000)
   learner_created: false
+- name: src/style.css
+  visible: true
+  text: "* {\n    margin: 0;\n    padding: 0;\n    font-family: 'IBM Plex Sans Arabic',\
+    \ sans-serif;\n}\nbody {\n    /*https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25\n\
+    \    ~ Kombu Green #283618\n    ~ Cornsilk #FEFAE0 */\n\n    background-color:\
+    \ #283618;\n    display: flex;\n\n    /*   vh\tЭквивалентно 1% высоты окна бра\
+    узера.*/\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n\
+    }\n\n.container {\n    display: flex;\n\n    /* текст в названиях клавиш опуст\
+    или*/\n    line-height: 2500%;\n    text-align: center;\n}\n\nkbd {\n    background-color:\
+    \ white;\n    width: 80px;\n    height: 240px;\n    border-style: groove;\n\n\
+    \    /*Remove the distance between the keys.\n    For example, you can do it with\
+    \ the margin-left property.*/\n    margin-left: -1px;\n\n    /*background-color:\
+    \ white;*/\n    /*display: inline-block;*/\n    /*width: 50px;*/\n    /*height:\
+    \ 200px;*/\n    /*border: 2px solid red;*/\n    /*text-align: center*/\n}"
+  learner_created: true
 - name: audio/S.mp3
   visible: true
   text: "��P\x04\0\x0f�\0\0i\0\0\0\b\0\0\n \0\0\x01\x04�\x02�\x14\x01\0\0�\x03]B�\
@@ -814,21 +829,6 @@ files:
     \x01�\0\0\0 \0\04�\0\0\x04����������������������������������������������������\
     ������������������������������������������������������������������������������\
     �������������������������������������������"
-  learner_created: true
-- name: src/style.css
-  visible: true
-  text: "* {\n    margin: 0;\n    padding: 0;\n    font-family: 'IBM Plex Sans Arabic',\
-    \ sans-serif;\n}\nbody {\n    /*https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25\n\
-    \    ~ Kombu Green #283618\n    ~ Cornsilk #FEFAE0 */\n\n    background-color:\
-    \ #283618;\n    display: flex;\n\n    /*   vh\tЭквивалентно 1% высоты окна бра\
-    узера.*/\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n\
-    }\n\n.container {\n    display: flex;\n\n    /* текст в названиях клавиш опуст\
-    или*/\n    line-height: 2500%;\n    text-align: center;\n}\n\nkbd {\n    background-color:\
-    \ white;\n    width: 80px;\n    height: 240px;\n    border-style: groove;\n\n\
-    \    /*Remove the distance between the keys.\n    For example, you can do it with\
-    \ the margin-left property.*/\n    margin-left: -1px;\n\n    /*background-color:\
-    \ white;*/\n    /*display: inline-block;*/\n    /*width: 50px;*/\n    /*height:\
-    \ 200px;*/\n    /*border: 2px solid red;*/\n    /*text-align: center*/\n}"
   learner_created: true
 - name: audio/G.mp3
   visible: true
@@ -2635,9 +2635,6 @@ files:
         }
     });
   learner_created: true
-- name: media/G.mp3
-  visible: true
-  learner_created: true
 - name: audio/U.mp3
   visible: true
   learner_created: true
@@ -2957,31 +2954,13 @@ files:
     �R\x04��<\n�\t�\x18\0(���0&\0\x05d\x1a�\x06\x18\x02������\x18�UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU�\
     �R\x04�\x0f�\0\0i\0\0\0\b\0\0\n \0\0\x01\0\0\x01�\0\0\0 \0\04�\0\0\x04UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
   learner_created: true
-- name: media/F.mp3
+- name: audio/Y.mp3
   visible: true
   learner_created: true
 - name: audio/T.mp3
   visible: true
   learner_created: true
-- name: media/A.mp3
-  visible: true
-  learner_created: true
 - name: audio/W.mp3
-  visible: true
-  learner_created: true
-- name: media/S.mp3
-  visible: true
-  learner_created: true
-- name: media/J.mp3
-  visible: true
-  learner_created: true
-- name: audio/Y.mp3
-  visible: true
-  learner_created: true
-- name: media/D.mp3
-  visible: true
-  learner_created: true
-- name: media/H.mp3
   visible: true
   learner_created: true
 - name: audio/E.mp3
